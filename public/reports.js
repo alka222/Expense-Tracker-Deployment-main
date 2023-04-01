@@ -2,6 +2,8 @@ let token = localStorage.getItem('token');
 let listurl = document.getElementById('listurl-div');
 let listno = 0 ;
 
+require('dotenv').config()
+
 window.addEventListener('DOMContentLoaded' , async(e)=>{
     e.preventDefault()
     try {

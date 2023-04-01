@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 async function savetocloud(event){
     event.preventDefault();
     const signinDetails={

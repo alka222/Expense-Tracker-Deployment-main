@@ -1,6 +1,7 @@
 const pagination = document.getElementById('pagination');
 const perpage = document.getElementById('perpage');
 let itemsPerPage = Number(localStorage.getItem('itemsperpage')) ;
+require('dotenv').config()
 
 window.addEventListener("DOMContentLoaded",()=>{
     const token = localStorage.getItem('token')
